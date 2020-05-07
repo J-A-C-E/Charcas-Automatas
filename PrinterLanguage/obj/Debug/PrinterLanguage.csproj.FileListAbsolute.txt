@@ -1,0 +1,16 @@
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\PrinterLanguage.exe.config
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\PrinterLanguage.exe
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\PrinterLanguage.pdb
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.csprojResolveAssemblyReference.cache
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.Form1.resources
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.Properties.Resources.resources
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.csproj.GenerateResource.Cache
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.csproj.CoreCompileInputs.cache
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.exe
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\obj\Debug\PrinterLanguage.pdb
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\MySql.Data.dll
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\Google.Protobuf.dll
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\Renci.SshNet.dll
+C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\MySql.Data.xml
