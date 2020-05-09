@@ -19,11 +19,12 @@ namespace PrinterLanguage
             InitializeComponent();
         }
 
-        static string s = "";
-        static string p = "";
-        static string u = "";
-        static string po = "";
-        static string cadenaConexion = "server=" + s + ";port=" + p + ";Database=printerlanguage" + ";UID=" + u +";password=" + po + ";";
+        static string servidor = "192.185.131.135";
+        static string puerto = "3306";
+        static string usuario = "javierc1_Javier";
+        static string contrasena = "12345";
+        static string cadenaConexion = "SERVER=" + servidor + "; PORT=" + puerto + ";Database=javierc1_Printer" + ";UID=" + usuario +
+                ";PASSWORD=" + contrasena + ";";
 
         private void btnCargarArchivo_Click(object sender, EventArgs e)
         {
@@ -88,12 +89,13 @@ namespace PrinterLanguage
 
                             if (token == "IDE")
                             {
-                                token = agregarDatosEnTablas("IDENTIFICADOR", token, subcadena);
+                                //
+                                token = agregarDatosEnTablas("Identificador", token, subcadena);
                                 mostrarDatosEnTablas();
                             }
                             else if (token == "CNU")
                             {
-                                token = agregarDatosEnTablas("CONSTANTENUMERICA", token, subcadena);
+                                token = agregarDatosEnTablas("ConstanteNumerica", token, subcadena);
                                 mostrarDatosEnTablas();
                             }
 
@@ -208,14 +210,14 @@ namespace PrinterLanguage
             MySqlConnection mySQLCon = new MySqlConnection(cadenaConexion);
 
             mySQLCon.Open();
-            MySqlDataAdapter myDtAd1 = new MySqlDataAdapter("SELECT * FROM IDENTIFICADOR", mySQLCon);
+            MySqlDataAdapter myDtAd1 = new MySqlDataAdapter("SELECT * FROM Identificador", mySQLCon);
             DataTable myDtTb1 = new DataTable();
             myDtAd1.Fill(myDtTb1);
             dgvIdentificadores.DataSource = myDtTb1;
             mySQLCon.Close();
 
             mySQLCon.Open();
-            MySqlDataAdapter myDtAd2 = new MySqlDataAdapter("SELECT * FROM CONSTANTENUMERICA", mySQLCon);
+            MySqlDataAdapter myDtAd2 = new MySqlDataAdapter("SELECT * FROM ConstanteNumerica", mySQLCon);
             DataTable myDtTb2 = new DataTable();
             myDtAd2.Fill(myDtTb2);
             dgvConstantesNumericas.DataSource = myDtTb2;
@@ -229,7 +231,7 @@ namespace PrinterLanguage
 
             mySQLCon.Open();
             MySqlDataReader myDtRd1;
-            MySqlCommand myQuery1 = new MySqlCommand("SELECT COUNT(*) FROM IDENTIFICADOR", mySQLCon);
+            MySqlCommand myQuery1 = new MySqlCommand("SELECT COUNT(*) FROM Identificador", mySQLCon);
             myDtRd1 = myQuery1.ExecuteReader();
             int id = 0;
             while (myDtRd1.Read())
@@ -240,7 +242,7 @@ namespace PrinterLanguage
 
             mySQLCon.Open();
             MySqlDataReader myDtRd2;
-            MySqlCommand myQuery2 = new MySqlCommand("SELECT COUNT(*) FROM CONSTANTENUMERICA", mySQLCon);
+            MySqlCommand myQuery2 = new MySqlCommand("SELECT COUNT(*) FROM ConstanteNumerica", mySQLCon);
             myDtRd2 = myQuery2.ExecuteReader();
             int cn = 0;
             while (myDtRd2.Read())
@@ -252,7 +254,7 @@ namespace PrinterLanguage
             if(id > 0)
             {
                 mySQLCon.Open();
-                MySqlCommand myQuery3 = new MySqlCommand("TRUNCATE IDENTIFICADOR", mySQLCon);
+                MySqlCommand myQuery3 = new MySqlCommand("TRUNCATE Identificador", mySQLCon);
                 myQuery3.ExecuteNonQuery();
                 mySQLCon.Close();
             }
@@ -260,7 +262,7 @@ namespace PrinterLanguage
             if(cn > 0)
             {
                 mySQLCon.Open();
-                MySqlCommand myQuery4 = new MySqlCommand("TRUNCATE CONSTANTENUMERICA", mySQLCon);
+                MySqlCommand myQuery4 = new MySqlCommand("TRUNCATE ConstanteNumerica", mySQLCon);
                 myQuery4.ExecuteNonQuery();
                 mySQLCon.Close();
             }

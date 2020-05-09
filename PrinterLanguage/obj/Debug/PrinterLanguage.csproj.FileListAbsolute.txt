@@ -14,3 +14,18 @@ C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\BouncyCa
 C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\Renci.SshNet.dll
 C:\Users\Radio Shack\Desktop\Printer Language\PrinterLanguage\bin\Debug\MySql.Data.xml
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\PrinterLanguage.exe.config
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\PrinterLanguage.exe
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\PrinterLanguage.pdb
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\MySql.Data.dll
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\Google.Protobuf.dll
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\bin\Debug\MySql.Data.xml
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.csprojAssemblyReference.cache
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.Form1.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.Properties.Resources.resources
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.csproj.GenerateResource.cache
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.csproj.CoreCompileInputs.cache
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.csproj.CopyComplete
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.exe
+C:\Users\ajedr\OneDrive\Documentos\GitHub\Charcas-Automatas\PrinterLanguage\obj\Debug\PrinterLanguage.pdb
